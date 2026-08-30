@@ -1,0 +1,14 @@
+{
+  "name": "laboratorio-javascript-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exercícios progressivos de JavaScript, TypeScript, Node.js e APIs",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:js:01": "node --test javascript/01-fundamentos/01-normalizar-pedido/index.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
