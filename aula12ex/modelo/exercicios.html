@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Verificador de Idade</title>
+
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Verificador de Idade</h1>
+  </header>
+
+  <main>
+
+    <section>
+
+      <p>
+        <label for="ano">Ano de nascimento</label>
+
+        <input
+          type="number"
+          id="ano"
+          placeholder="Ex: 2000"
+        >
+      </p>
+
+      <p>
+        Sexo:
+
+        <input
+          type="radio"
+          name="sexo"
+          id="masculino"
+          value="masculino"
+          checked
+        >
+
+        <label for="masculino">Masculino</label>
+
+        <input
+          type="radio"
+          name="sexo"
+          id="feminino"
+          value="feminino"
+        >
+
+        <label for="feminino">Feminino</label>
+      </p>
+
+      <button onclick="verificar()">
+        Verificar
+      </button>
+
+      <div id="resultado">
+        Preencha os dados acima.
+      </div>
+
+      <img
+        id="imagem"
+        alt="Imagem correspondente à idade"
+      >
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; Thomas Eduardo</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

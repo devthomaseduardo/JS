@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificar Nacionalidade</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        width: 320px;
+      }
+
+      h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      #resultado {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Verificar Nacionalidade</h1>
+
+      <input type="text" id="pais" placeholder="Digite seu país" />
+
+      <button onclick="verificar()">Verificar</button>
+
+      <div id="resultado"></div>
+    </div>
+
+    <script>
+      function verificar() {
+        var pais = document.getElementById('pais').value;
+
+        var resultado = document.getElementById('resultado');
+
+        resultado.innerHTML = `Vivendo em ${pais}<br>`;
+
+        if (pais != 'Brasil') {
+          resultado.innerHTML += 'Você é estrangeiro!';
+        } else {
+          resultado.innerHTML += 'Você é brasileiro!';
+        }
+      }
+    </script>
+  </body>
+</html>

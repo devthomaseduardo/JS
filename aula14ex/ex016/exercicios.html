@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contador</title>
+
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Contador</h1>
+    </header>
+
+    <main>
+      <section>
+        <div class="campos">
+          <div>
+            <label for="inicio">Início</label>
+            <input type="number" id="inicio" placeholder="0" />
+          </div>
+
+          <div>
+            <label for="fim">Fim</label>
+            <input type="number" id="fim" placeholder="10" />
+          </div>
+
+          <div>
+            <label for="passo">Passo</label>
+            <input type="number" id="passo" placeholder="1" />
+          </div>
+
+          <button onclick="contar()">Contar</button>
+        </div>
+
+        <div id="resultado">Informe os valores para iniciar.</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Thomas Eduardo</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

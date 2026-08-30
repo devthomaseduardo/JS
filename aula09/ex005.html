@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+
+  <style>
+    body {
+      font: normal 20pt Arial, sans-serif;
+      color: #333;
+      background-color: beige;
+    }
+  </style>
+</head>
+
+<body>
+<h1>Manipulando o DOM</h1>
+<p> aqui vai ter conteúdo </p>
+<p> aqui vai ter conteúdo <strong>em negrito</strong> </p>
+<div> Clique aqui em mim </div>
+
+
+<script>
+  var p1 = window.document.getElementsByTagName('p')[1];
+ document.write(p1.innerText);
+</script>
+</body>
+</html>

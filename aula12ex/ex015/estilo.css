@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transition: background 0.8s ease;
+}
+
+/* MANHÃ */
+
+body.manha {
+  background-image:
+    linear-gradient(rgba(255, 220, 170, 0.25), rgba(255, 255, 255, 0.15)), url('img/manha.jpg');
+
+  color: #222;
+}
+
+/* TARDE */
+
+body.tarde {
+  background-image:
+    linear-gradient(rgba(255, 170, 80, 0.2), rgba(80, 160, 220, 0.2)), url('img/tarde.jpg');
+
+  color: #222;
+}
+
+/* NOITE */
+
+body.noite {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)), url('img/noite.jpg');
+
+  color: white;
+}
+
+/* CABEÇALHO */
+
+header {
+  text-align: center;
+  padding: 40px 20px 10px;
+}
+
+header h1 {
+  font-size: 2.3rem;
+}
+
+/* CONTEÚDO */
+
+main {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+section {
+  width: 100%;
+  max-width: 600px;
+
+  text-align: center;
+
+  padding: 20px;
+}
+
+/* MENSAGEM */
+
+#mensagem {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  margin-bottom: 30px;
+
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* IMAGEM */
+
+#imagem {
+  width: 280px;
+  height: 280px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* RODAPÉ */
+
+footer {
+  text-align: center;
+  padding: 20px;
+
+  font-style: italic;
+}
