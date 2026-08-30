@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
+    "test:js:basico": "node --test javascript/00-basico/fundamentos.test.js",
     "test:js:01": "node --test javascript/01-fundamentos/01-normalizar-pedido/index.test.js"
   },
   "engines": {
