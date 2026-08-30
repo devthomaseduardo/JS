@@ -1,3 +1,6 @@
+
+//Alterando os valores das variáveis
+
 /*As variáveis, como o próprio nome sugere, podem armazenar dados que variam.
 As alterações são feitas atribuindo um novo valor à variável, que sobrescreve o anterior. */
 

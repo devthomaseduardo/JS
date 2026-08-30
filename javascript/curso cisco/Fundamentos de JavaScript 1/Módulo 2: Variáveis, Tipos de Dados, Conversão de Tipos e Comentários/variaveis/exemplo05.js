@@ -1,3 +1,6 @@
+//Alterando os valores das variáveis
+
+
 let saudacao = 'Olá!';
 let contador = 100;
 saudacao = saudacao + contador;
