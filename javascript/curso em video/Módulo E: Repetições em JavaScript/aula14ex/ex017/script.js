@@ -1,3 +1,4 @@
+// Gera dinamicamente a tabuada do número informado usando uma repetição de 1 a 10.
 function gerarTabuada() {
   var campoNumero = document.querySelector('#numero');
   var resultado = document.querySelector('#resultado');

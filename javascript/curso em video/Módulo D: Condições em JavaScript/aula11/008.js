@@ -1,3 +1,4 @@
+// Demonstra uma condição simples verificando se a velocidade ultrapassa o limite.
 var vel = 150;
 console.log(`A velocidade do seu carro é ${vel} km/h`);
 if (vel > 100) {

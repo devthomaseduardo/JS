@@ -1,3 +1,4 @@
+// Valida início, fim e passo antes de gerar uma contagem crescente ou decrescente.
 function contar() {
   var campoInicio = document.querySelector('#inicio');
   var campoFim = document.querySelector('#fim');

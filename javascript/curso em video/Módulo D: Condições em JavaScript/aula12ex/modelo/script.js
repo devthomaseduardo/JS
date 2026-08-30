@@ -1,3 +1,4 @@
+// Valida os dados, calcula a idade e escolhe a classificação e a imagem correspondente.
 var bancoImagens = {
   menino: 'https://loremflickr.com/500/500/boy?lock=1',
   menina: 'https://loremflickr.com/500/500/girl?lock=2',

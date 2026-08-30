@@ -1,3 +1,4 @@
+// Ajusta mensagem, imagem e cor da página de acordo com a hora atual.
 var bancoImagens = {
   manha: 'img/manha.jpeg',
   tarde: 'img/tarde.jpeg',

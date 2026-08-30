@@ -1,3 +1,4 @@
+// Demonstra uma condição composta para classificar a nacionalidade.
 var pais = 'EUA';
 console.log(`Vivendo em ${pais}`);
 if (pais != 'Brasil') {

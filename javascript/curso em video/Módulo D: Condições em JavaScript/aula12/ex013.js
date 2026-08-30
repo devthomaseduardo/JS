@@ -1,3 +1,4 @@
+// Converte o número retornado por getDay() no nome correspondente da semana.
 var agora = new Date();
 var diaSem = agora.getDay();
 

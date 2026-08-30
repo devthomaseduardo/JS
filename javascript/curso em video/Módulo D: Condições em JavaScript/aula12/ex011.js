@@ -1,3 +1,4 @@
+// Classifica a obrigatoriedade do voto conforme a faixa de idade.
 var idade = 20;
 if (idade < 16) {
   console.log('não vota!');
