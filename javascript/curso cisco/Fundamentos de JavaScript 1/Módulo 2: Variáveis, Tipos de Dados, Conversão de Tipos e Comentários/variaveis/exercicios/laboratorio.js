@@ -1,8 +1,4 @@
 
-
-
-
-
 // Contato 1
 let nome1 = "Maxwell Wright";
 let telefone1 = "(0191) 719 6495";
